@@ -45,7 +45,7 @@
 					<i data-feather="maximize-2"></i>
 				</a>
 				
-				<a href="file/Modul12.pdf" class="btn-cv">
+				<a href="file/cv-veefah.pdf" target="_blank" rel="noopener noreferrer" class="btn-cv">
 					<p>Download cv</p>
 					<i data-feather="arrow-down-circle"></i>
 				</a>
@@ -236,7 +236,14 @@
 			</div>
 		
 			<div class="project2">
-				<img src="image/Screenshot-p2.png" alt="Product preview card">
+				<picture>
+					<!--Kondisi 1 -->
+					<source srcset="image/Screenshot-p2mobile.png" media="(min-width: 651px) and (max-width:810px)">
+					<!--Kondisi 2 -->
+					<source srcset="image/Screenshot-p2mobile.png" media="(max-width:448px)">
+					<!--gambar default Kondisi lainnya -->
+  					<img src="image/Screenshot-p2.png" alt="Product preview card">
+				</picture>
 
 				<div class="card2">
 				<a class="frontend" href="https://www.frontendmentor.io/solutions/responsive-product-preview-card-2mC3s5BEIJ" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>			
