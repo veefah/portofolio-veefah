@@ -423,6 +423,7 @@ h1 {
 	padding: 0;
 	font-size: 1.9rem;
 }
+
 span {
 	color: #94b8b8;
 }
@@ -720,6 +721,7 @@ aside img {
 	html {
 		font-size: 55%;
 	}
+
 	article {
 		flex-direction: column;
 		gap: 5px;
@@ -773,20 +775,21 @@ aside img {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
 
-	/*.project1 img, 
+	.project1 img, 
 	.project2 img {
 		width: 100%;
 		max-width: 180px;
 		height: 180px;
 		object-fit: cover;
 		margin: auto;
-	}*/
+	}
 
 	.card-link svg {
 		width: 10px;
 		height: 10px;
 		flex-shrink: 0;
 	}
+
 	.project1 .info,
 	.project2 .info {
 		grid-column: 1 / -1;
@@ -840,13 +843,14 @@ aside img {
   gap: 15px;
   width: 90%;
   max-width: 350px;
-}
+	}
 
 .info-currently {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 350px));
   gap: 15px;
   justify-content: center;
+	}
 
   .title-skills svg {
   	width: 8px;
@@ -860,6 +864,8 @@ aside img {
 	.project2 {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 		margin: 0;
 	}
 
